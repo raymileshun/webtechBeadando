@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 
   $("#content").load("mainpage.html");
-  // initCarButton();
+
 
 
 
@@ -36,38 +36,6 @@ $(document).ready(function() {
     $('.greybox-contact').css('background-color','yellow');
     setTimeout(function(){ $('.greybox-contact').css('background-color','#c9c4c3'); },2000)
   });
-
-
-
-
-
-
-
-  function initCarButton(){
-    $("#carForYou .randomCarButton").click(function() {
-      randomCar();
-      $('#carForYou').hide();
-
-    });
-
-
-
-    function randomCar() {
-      $.get('/cars', function(cars) {
-        var rand = cars[Math.floor(Math.random() * cars.length)];
-        alert(
-          "A te autód: "+
-          rand.manufacturer+" "+
-          rand.name
-        );
-
-      });
-    }
-  }
-
-
-
-
 
 
 

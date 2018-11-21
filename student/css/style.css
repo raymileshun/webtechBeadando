@@ -62,23 +62,22 @@ a {
 }
 
 
-.imageTable img{
-  width: 900px;
-  height: 500px;
+.welcomeImage{
+  width: 100%;
   opacity: 1;
   transition: .5s ease;
   backface-visibility: hidden;
+}
+
+.welcomeImage:hover{
+  opacity: 0.3;
+  transform: scale(0.9);
 }
 
 .imageTable {
   width: 100%;
 }
 
-.imageTable img:hover{
-  opacity: 0.3;
-  cursor: pointer;
-  transform: scale(0.9)
-}
 
 .informationtext {
   background-color: #4CAF50;

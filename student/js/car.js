@@ -12,8 +12,7 @@ function loadCars() {
     $("#carContainer").empty();
     // $("#carContainer").append(loadCarTemplate(cars));
 
-    var table= $("<table></table>");
-    $("#carContainer").append(table);
+    $("#carContainer").append("<table></table>");
     $("#carContainer").find("table").append("<tr><th>Car name</th><th>Consumption</th><th>Color</th><th>Manufacturer</th><th>Year of making</th><th>Available</th><th>Horsepower</th></tr>");
     for(var car of cars){
       $("#carContainer").find("table").append(loadCarTemplate(car));
