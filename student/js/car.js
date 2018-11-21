@@ -54,30 +54,7 @@ function loadCars() {
 
   }
 
-
-
-
-
-
-  // function loadCarTemplate(objects){
-  //    function template(obj){return "<tr onclick="+"getManufacturerData('"+obj.manufacturer+"')"+"><td>" + obj.name + "</td><td>" +
-  //       obj.consumption + "</td><td>" +
-  //       obj.color + "</td><td>" +
-  //       obj.manufacturer + "</td><td>" +
-  //       obj.year + "</td><td>" +
-  //       obj.available + "</td><td>" +
-  //       obj.horsepower +
-  //       "</td></tr>";
-  //     }
-  //
-  //   var table= '<table><tr><th>Car name</th><th>Consumption</th><th>Color</th><th>Manufacturer</th><th>Year of making</th><th>Available</th><th>Horsepower</th></tr>';
-  //   for(var ob of objects){
-  //     table= table+template(ob);
-  //   }
-  //   table=table+"</table>"
-  //   return table;
-  // }
-
+  
 
 
   function loadCarTemplate(obj){
